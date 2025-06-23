@@ -11,6 +11,11 @@ Este proyecto es una tienda simple de venta de laptops hecha con HTML, CSS y Jav
 - El total a pagar se actualiza automáticamente.
 - Si intentas restar cuando la cantidad es 0, aparece un banner de advertencia debajo de la tarjeta.
 
+## Visualiza la web
+
+[Ver demo en GitHub Pages](https://TU_USUARIO.github.io/TU_REPOSITORIO/)
+
+
 ## Estructura de archivos
 
 ```
