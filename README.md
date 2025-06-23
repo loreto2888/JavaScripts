@@ -13,7 +13,7 @@ Este proyecto es una tienda simple de venta de laptops hecha con HTML, CSS y Jav
 
 ## Visualiza la web
 
-[Ver demo en GitHub Pages](https://TU_USUARIO.github.io/TU_REPOSITORIO/)
+[Ver demo en GitHub Pages](https://loreto2888.github.io/JavaScripts/)
 
 
 ## Estructura de archivos
