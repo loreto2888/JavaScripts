@@ -13,8 +13,7 @@ Este proyecto es una tienda simple de venta de laptops hecha con HTML, CSS y Jav
 
 ## Visualiza la web
 
-[Ver demo en GitHub Pages](https://loreto2888.github.io/JavaScripts/desafio1_calculandoeltotal_Jbarrientos/index.html)
-
+[Ver demo en GitHub Pages](https://loreto2888.github.io/JavaScripts/desafio1_calculandoeltotal_Jbarrientos/)
 
 ## Estructura de archivos
 
