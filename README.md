@@ -3,6 +3,9 @@ Modulo 3 javascript
 # Desafío 1 - Calculando el total
 
 Este proyecto es una tienda simple de venta de laptops hecha con HTML, CSS y JavaScript. Permite sumar o restar la cantidad de productos y calcula el total a pagar automáticamente.
+## Visualiza la web
+
+[Ver demo en GitHub Pages](https://loreto2888.github.io/JavaScripts/)
 
 ## Características
 
