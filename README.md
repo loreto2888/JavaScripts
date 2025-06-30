@@ -1,6 +1,6 @@
 # JavaScripts
 Modulo 3 javascript
-
+NOTA: lOS DESAFIOS ANTERIORES ESTÁN EN CARPETA, LOS ACTUALES ESTAN EN LA ESTRUCTURA
 # Desafío 2 - Condiciones
 
 Este proyecto es una página web interactiva para practicar la manipulación del DOM, el uso de condicionales (`if`, `else if`, `else`) y operadores lógicos en JavaScript.
