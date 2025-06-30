@@ -13,19 +13,16 @@ function verificarStickers() {
   const s1 = parseInt(document.getElementById('s1').value) || 0;
   const s2 = parseInt(document.getElementById('s2').value) || 0;
   const s3 = parseInt(document.getElementById('s3').value) || 0;
-  const s4 = parseInt(document.getElementById('s4').value) || 0;
-  const s5 = parseInt(document.getElementById('s5').value) || 0;
-  const s6 = parseInt(document.getElementById('s6').value) || 0;
-  const total = s1 + s2 + s3 + s4 + s5 + s6;
+  const total = s1 + s2 + s3;
   const resultado = document.getElementById('resultadoStickers');
   const banner = document.getElementById('banner');
 
   if (total <= 10) {
-    resultado.textContent = `Llevas ${total} stickers`; // <--- Aquí se muestra el mensaje con la cantidad
+    resultado.textContent = `Llevas ${total} stickers`;
     banner.style.display = "none";
   } else {
     resultado.textContent = "";
-    banner.style.display = "block"; // <--- Aquí se muestra el mensaje de demasiados stickers
+    banner.style.display = "block";
     setTimeout(() => {
       banner.style.display = "none";
     }, 2000);
