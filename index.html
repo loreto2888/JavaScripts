@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Desafío 2 - Condiciones</title>
+    <link rel="stylesheet" href="./assets/Style/style.css" />
+    <!-- Iconos de GitHub (Font Awesome CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>
+        <i class="fab fa-github"></i>
+         Condiciones & Imagenes
+        <i class="fab fa-github"></i>
+      </h1>
+
+            <!-- Stickers -->
+      <div>
+        <div class="sticker-section sticker-grid">
+          <div>
+            <img class="sticker-img" src="./assets/img/charla-kakao.png" alt="Sticker 1" /><br />
+            <input type="number" id="s1" min="0" max="10" />
+          </div>
+          <div>
+            <img class="sticker-img" src="./assets/img/evernote.png" alt="Sticker 2" /><br />
+            <input type="number" id="s2" min="0" max="10" />
+          </div>
+          <div>
+            <img class="sticker-img" src="./assets/img/git.png" alt="Sticker 3" /><br />
+            <input type="number" id="s3" min="0" max="10" />
+          </div>
+          <div>
+            <img class="sticker-img" src="./assets/img/github.png" alt="Sticker 4" /><br />
+            <input type="number" id="s4" min="0" max="10" />
+          </div>
+          <div>
+            <img class="sticker-img" src="./assets/img/gitlab.png" alt="Sticker 5" /><br />
+            <input type="number" id="s5" min="0" max="10" />
+          </div>
+          <div>
+            <img class="sticker-img" src="./assets/img/gofundme.png" alt="Sticker 6" /><br />
+            <input type="number" id="s6" min="0" max="10" />
+          </div>
+        </div>
+        <button onclick="verificarStickers()">Verificar</button>
+        <p id="resultadoStickers"></p>
+        <div id="banner" class="banner" style="display:none;">Llevas demasiados stickers</div>
+      </div>
+
+      <!-- Verificación de password -->
+                <div class="password-container">
+      <h2>Ingresa el password</h2>
+      <div class="password-section">
+        <select id="digit1">
+          <option value="">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+         
+        </select>
+        <select id="digit2">
+          <option value="">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          
+        </select>
+        <select id="digit3">
+          <option value="">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          
+        </select>
+      </div>
+      <button onclick="verificarPassword()">Ingresar</button>
+      <p id="resultadoPassword"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
