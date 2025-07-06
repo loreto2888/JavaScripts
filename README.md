@@ -1,34 +1,38 @@
 # JavaScripts
-Modulo 3 javascript
-NOTA: lOS DESAFIOS ANTERIORES ESTÁN EN CARPETA, LOS ACTUALES ESTAN EN LA ESTRUCTURA
-# Desafío 2 - Condiciones
 
-Este proyecto es una página web interactiva para practicar la manipulación del DOM, el uso de condicionales (`if`, `else if`, `else`) y operadores lógicos en JavaScript.
+Módulo 3 JavaScript
 
-## Funcionalidades
+**NOTA:** Los desafíos anteriores están en carpeta, los actuales están en la estructura principal.
 
-### 1. Imagen con borde
-- Haz clic en la imagen principal para alternar un borde rojo.
+# Desafío 3 - Funciones
 
-### 2. Stickers
-- Hay 6 imágenes de stickers, cada una con un input debajo.
-- Puedes ingresar cuántos stickers quieres de cada tipo (máximo 10 en total).
-- Al presionar "Verificar":
-  - Si la suma es menor o igual a 10, muestra:  
-    `Llevas X stickers`
-  - Si la suma es mayor a 10, aparece un banner:  
-    `Llevas demasiados stickers` (por 2 segundos).
+## Ejercicio 1
+Transformar una función a función de expresión (`1_funcion.js`).
 
-### 3. Verificación de password
-- Hay tres selectores para ingresar un código de 3 dígitos.
-- Al presionar "Ingresar":
-  - Si el código es `911`, muestra: `password 1 correcto`
-  - Si el código es `714`, muestra: `password 2 correcto`
-  - En cualquier otro caso, muestra: `password incorrecto`
+## Ejercicio 2
+Transformar una función a arrow function de una línea (`2_arrow.js`).
 
-## Archivos principales
+## Ejercicio 3
+Cambiar el color de fondo de un div al hacer click (`pintar.html` y `Assets/js/script.js`).
+- 3.1: Código en dos archivos, estructura correcta.
+- 3.2: Modificar la función para recibir el elemento clickeado.
+- 3.3: Modificar la función para recibir un color como argumento.
 
-- `index.html` — Estructura de la página.
-- `assets/Style/style.css` — Estilos y diseño.
-- `script.js` — Lógica de interacción y validaciones.
+## Ejercicio 4
+Página web con 4 divs de colores y eventos de teclado (`4_colores.html` y `Assets/js/4_colores.js`).
+- 4.1: 4 divs de colores con id único.
+- 4.2: Cambiar a negro al hacer click.
+- 4.3: Cambiar color de un div con teclas a, s, d.
+- 4.4: Crear nuevos divs con teclas q, w, e.
+
+---
+
+### Resumen
+
+- 2 ejercicios de funciones (archivos JS).
+- 1 ejercicio de pintar div (HTML + JS).
+- 1 ejercicio de 4 colores y teclas (HTML + JS).
+
+**Total:**  
+4 ejercicios principales (algunos con varios subpuntos).
 
