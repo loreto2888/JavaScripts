@@ -22,8 +22,8 @@ Cambiar el color de fondo de un div al hacer click (`pintar.html` y `Assets/js/s
 Página web con 4 divs de colores y eventos de teclado (`4_colores.html` y `Assets/js/4_colores.js`).
 - 4.1: 4 divs de colores con id único.
 - 4.2: Cambiar a negro al hacer click.
-- 4.3: Cambiar color de un div con teclas a, s, d.
-- 4.4: Crear nuevos divs con teclas q, w, e.
+- 4.3: Cambiar color de un div con teclas a, s, d. (SE VE HORIZONTAL)
+- 4.4: Crear nuevos divs con teclas q, w, e. (SE VE VERTICAL)
 
 ---
 
