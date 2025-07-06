@@ -2,7 +2,7 @@
 
 Módulo 3 JavaScript
 
-**NOTA:** INDEX:HTML funciona de menú principal.
+**NOTA:** INDEX.HTML funciona de menú principal.
 
 # Desafío 3 - Funciones
 
