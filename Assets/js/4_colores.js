@@ -9,6 +9,7 @@
 let color = '';
 
 const keyDiv = document.getElementById('key');
+const contenedorKeyDivs = document.getElementById('contenedor-key-divs');
 
 document.addEventListener('keydown', function(event) {
   if (event.key === 'a') {
@@ -33,5 +34,5 @@ function crearDivColor(color) {
   const nuevoDiv = document.createElement('div');
   nuevoDiv.className = 'key-div';
   nuevoDiv.style.backgroundColor = color;
-  document.body.appendChild(nuevoDiv);
+  contenedorKeyDivs.appendChild(nuevoDiv);
 }
