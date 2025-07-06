@@ -2,7 +2,7 @@
 
 Módulo 3 JavaScript
 
-**NOTA:** Los desafíos anteriores están en carpeta, los actuales están en la estructura principal.
+**NOTA:** INDEX.HTML : funciona como menú principal 
 
 # Desafío 3 - Funciones
 
