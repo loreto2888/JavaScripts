@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.color-box {
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  transition: background 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.color-box:hover {
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.25);
+  opacity: 0.9;
+}
+
+#key, .key-div {
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.10);
+  margin-top: 20px;
+  vertical-align: top;
+  transition: background 0.3s;
+}
+
+.key-div {
+  display: inline-block;
+}
