@@ -7,7 +7,7 @@ Link directo a HTML: https://loreto2888.github.io/JavaScripts/
 
 ## 🏗️ Estructura del Proyecto
 
-
+```
 inmobiliaria/
 ├── index.html                 # Página principal
 ├── propiedades_venta.html     # Página de propiedades en venta
@@ -26,7 +26,7 @@ inmobiliaria/
 │   ├── alquiler 1.png        # Imágenes de propiedades en alquiler
 │   └── alquiler 2.png        # (6 imágenes total)
 └── README.md
-
+```
 
 ## Datos de las Propiedades
 
