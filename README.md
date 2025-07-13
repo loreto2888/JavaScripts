@@ -2,16 +2,6 @@
 
 Una moderna aplicación web de inmobiliaria que muestra propiedades en venta y alquiler en Santiago y Viña del Mar, Chile. Incluye sistema de búsqueda avanzado y renderizado dinámico de propiedades.
 
-## 📋 Características
-
-- **Diseño Responsive**: Compatible con dispositivos móviles y desktop
-- **Navegación Intuitiva**: Menú de navegación claro entre las diferentes secciones
-- **Propiedades Dinámicas**: Renderizado dinámico usando JavaScript y DOM
-- **Sistema de Búsqueda**: Filtrado por región y tipo de propiedad en tiempo real
-- **Filtros Visuales**: Indicadores claros para políticas de mascotas y fumar
-- **Interfaz Moderna**: Diseño atractivo con Bootstrap 5 y CSS personalizado
-- **Imágenes Locales**: Galería de imágenes de propiedades almacenadas localmente
-
 ## 🏗️ Estructura del Proyecto
 
 ```
