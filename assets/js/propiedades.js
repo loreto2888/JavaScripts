@@ -84,7 +84,7 @@ const propiedades_alquiler = [
     {
         nombre: 'Casa Familiar ConCon',
         src: 'img/alquiler 2.png',
-        descripcion: 'Acogedora casa en ConCon con jardín, perfecta para familias que buscan tranquilidad cerca de la ciudad.',
+        descripcion: 'Acogedor Departamento en ConCon, perfecta para familias que buscan tranquilidad cerca de la playa.',
         ubicacion: 'ConCon, Viña del Mar',
         habitaciones: 3,
         baños: 2,
