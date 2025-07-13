@@ -2,9 +2,12 @@
 
 Una moderna aplicación web de inmobiliaria que muestra propiedades en venta y alquiler en Santiago y Viña del Mar, Chile. Incluye sistema de búsqueda avanzado y renderizado dinámico de propiedades.
 
+Link directo a HTML: https://loreto2888.github.io/JavaScripts/
+
+
 ## 🏗️ Estructura del Proyecto
 
-```
+
 inmobiliaria/
 ├── index.html                 # Página principal
 ├── propiedades_venta.html     # Página de propiedades en venta
@@ -23,21 +26,18 @@ inmobiliaria/
 │   ├── alquiler 1.png        # Imágenes de propiedades en alquiler
 │   └── alquiler 2.png        # (6 imágenes total)
 └── README.md
-```
 
-## 📊 Datos de las Propiedades
+
+## Datos de las Propiedades
 
 ### Propiedades en Venta (6 propiedades)
 ### Propiedades en Alquiler (6 propiedades)
-## 🔍 Sistema de Búsqueda
+##  Sistema de Búsqueda
 ### Filtros Disponibles
-- **Por Región**: 
-- **Por Tipo**: 
+- Por Región
+- Por Tipo
 
 
-
-
-
-**Desarrollado para Desafío Latam 2025** 🚀
+**Desarrollado para Desafío Latam 2025** 
 
 
