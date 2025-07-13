@@ -82,10 +82,10 @@ const propiedades_alquiler = [
         pets: true
     },
     {
-        nombre: 'Casa Familiar La Reina',
+        nombre: 'Casa Familiar ConCon',
         src: 'img/alquiler 2.png',
         descripcion: 'Acogedora casa en La Reina con jardín, perfecta para familias que buscan tranquilidad cerca de la ciudad.',
-        ubicacion: 'La Reina, Santiago',
+        ubicacion: 'ConCon, Viña del Mar',
         habitaciones: 3,
         baños: 2,
         costo: 850000,
