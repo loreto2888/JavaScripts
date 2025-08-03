@@ -1,14 +1,14 @@
-# 📝 Desafío 5 - Todo List Manager
+#  Desafío 5 - Todo List Manager
 
 > **Métodos y Arreglos en JavaScript**  
 
-## 🎯 Descripción del Proyecto
+##  Descripción del Proyecto Aplicación
 
 Aplicación web interactiva para gestión de tareas que permite agregar, editar, marcar como completadas y eliminar tareas. Desarrollada como parte del **Desafío 5** del bootcamp de **DesafíoLatam**, enfocándose en el uso de métodos y arreglos en JavaScript.
 
-## ✨ Características Principales
+##  Características Principales ###
 
-### 📋 Requerimientos Cumplidos
+###  Requerimientos Cumplidos
 
 | Req. | Funcionalidad | Estado | Descripción |
 |------|---------------|--------|-------------|
@@ -19,17 +19,7 @@ Aplicación web interactiva para gestión de tareas que permite agregar, editar,
 | **5** | ✅ Contar Realizadas | Completado | Contador de tareas completadas en tiempo real |
 | **6** | ✅ Arreglo Inicial | Completado | 3 tareas de ejemplo precargadas |
 
-###  Funcionalidades Extra
-
-- **Diseño Moderno**: Interfaz con glassmorphism y gradientes
-- **Sistema de Filtros**: Ver todas, pendientes o completadas
-- **✏Edición Inline**: Editar tareas directamente en la lista
-- **Notificaciones**: Sistema de toast notifications
-- **Responsive Design**: Adaptable a dispositivos móviles
-- **Animaciones**: Transiciones suaves y efectos visuales
-- **Validaciones**: Control de longitud y campos vacíos
-
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **HTML5**: Estructura semántica
 - **CSS3**: Estilos modernos con Flexbox y Grid
@@ -48,21 +38,6 @@ desafio5_TodoList_JohannaBarrientos/
     └── 📁 css/
         └── 📄 style.css   # Estilos CSS
 ```
-
-## Diseño Visual
-
-### Paleta de Colores
-- **Gradiente Principal**: `#667eea` → `#764ba2` (Púrpura-Azul)
-- **Verde**: `#48bb78` (Éxito/Completado)
-- **Azul**: `#4299e1` (Edición)
-- **Naranja**: `#ed8936` (Pendiente)
-- **Rojo**: `#f56565` (Eliminación)
-
-### Efectos Visuales
-- **Glassmorphism**: Efectos de cristal con `backdrop-filter`
-- **Gradientes**: Botones y fondos dinámicos
-- **Animaciones**: Hover effects y transiciones
-- **Sombras**: Box-shadows suaves para profundidad
 
 ## Cómo Usar
 
@@ -90,20 +65,15 @@ desafio5_TodoList_JohannaBarrientos/
    - **Completadas**: Solo tareas finalizadas ##
 
 
-## 👨‍💻 Autor
+##  Autor **Johanna Barrientos** -
 
-**Johanna Barrientos**
 - Estudiante de DesafíoLatam -
 - Bootcamp: Desarrollo Web Full Stack -
 - Proyecto: Desafío 5 - Métodos y Arreglos
 
 ## 📄 Licencia
 
-Este proyecto es de uso educativo, desarrollado como parte del programa de DesafíoLatam.
+Este proyecto es de uso educativo, desarrollado como parte del programa de DesafíoLatam. --- 
 
----
 
-⭐ **¡Gracias por revisar este proyecto!** ⭐
-
-*Desarrollado con ❤️ y mucho ☕ durante el bootcamp de DesafíoLatam*
 
