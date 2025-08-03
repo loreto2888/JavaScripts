@@ -8,7 +8,7 @@ Aplicación web interactiva para gestión de tareas que permite agregar, editar,
 
 ##  Características Principales ###
 
-###  Requerimientos Cumplidos
+###  Requerimientos Solicitados D5.
 
 | Req. | Funcionalidad | Estado | Descripción |
 |------|---------------|--------|-------------|
@@ -74,6 +74,7 @@ desafio5_TodoList_JohannaBarrientos/
 ## 📄 Licencia
 
 Este proyecto es de uso educativo, desarrollado como parte del programa de DesafíoLatam. --- 
+
 
 
 
