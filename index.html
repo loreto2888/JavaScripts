@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ Modern Todo List</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="background-pattern"></div>
+  
+  <main class="app-container">
+    <header class="app-header">
+      <div class="header-content">
+        <i class="fas fa-tasks header-icon"></i>
+        <h1 class="app-title">Todo List Manager</h1>
+        <p class="app-subtitle">Organiza tus tareas de manera eficiente</p>
+      </div>
+    </header>
+
+    <!-- REQUERIMIENTO 1: Agregar tareas con descripción -->
+    <section class="task-input-section">
+      <div class="input-wrapper">
+        <i class="fas fa-plus input-icon"></i>
+        <input type="text" id="nuevaTarea" placeholder="Escribe tu nueva tarea aquí..." maxlength="100" />
+        <button id="agregarTarea" class="add-btn">
+          <i class="fas fa-plus"></i>
+          <span>Agregar</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- REQUERIMIENTO 3 y 5: Contar total de tareas y tareas realizadas -->
+    <section class="stats-container">
+      <div class="stat-card total-card">
+        <div class="stat-icon">
+          <i class="fas fa-list"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" id="totalTareas">0</span>
+          <span class="stat-label">Total</span>
+        </div>
+      </div>
+      
+      <div class="stat-card completed-card">
+        <div class="stat-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" id="tareasRealizadas">0</span>
+          <span class="stat-label">Realizadas</span>
+        </div>
+      </div>
+      
+      <div class="stat-card pending-card">
+        <div class="stat-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" id="tareasPendientes">0</span>
+          <span class="stat-label">Pendientes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- REQUERIMIENTO 2, 4 y 6: Borrar tarea, marcar como completada, y mostrar tareas -->
+    <!-- También incluye funcionalidad extra de filtros -->
+    <section class="tasks-section">
+      <div class="section-header">
+        <h2><i class="fas fa-clipboard-list"></i> Lista de Tareas</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-eye"></i> Todas
+          </button>
+          <button class="filter-btn" data-filter="pending">
+            <i class="fas fa-hourglass-half"></i> Pendientes
+          </button>
+          <button class="filter-btn" data-filter="completed">
+            <i class="fas fa-check"></i> Completadas
+          </button>
+        </div>
+      </div>
+      
+      <!-- REQUERIMIENTO 6: Incluye al menos 3 tareas en el arreglo inicial (ver script.js) -->
+      <div class="tasks-container" id="listaTareas">
+        <!-- Las tareas se renderizan aquí -->
+      </div>
+      
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <i class="fas fa-inbox empty-icon"></i>
+        <h3>No hay tareas</h3>
+        <p>¡Agrega tu primera tarea para comenzar!</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
