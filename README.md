@@ -22,8 +22,9 @@ Conversor de Monedas es una aplicación web que permite convertir entre distinta
 
 ## Estructura del proyecto
 
-+```
+
 +Examen_Conversordemonedas_JohannaBarrientos/
+
 +├── index.html              # Página principal y formulario
 +├── assets/
 +│   ├── css/
@@ -31,7 +32,7 @@ Conversor de Monedas es una aplicación web que permite convertir entre distinta
 +│   └── js/
 +│       └── main.js         # Lógica y consumo de API
 +├── README.md               # Documentación
-+```
 
-debugConverter()  // Ver información de caché y estado
+
+
 
