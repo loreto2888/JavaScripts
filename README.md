@@ -28,9 +28,7 @@ Conversor de Monedas es una aplicación web que permite convertir entre distinta
  # Página principal y formulario
 ├── index.html 
 ├── packge.json
-├──.gitignore
 
-├── .vscode / tasks.json
 
 # Estilos visuales
 ├── assets
@@ -39,6 +37,7 @@ Conversor de Monedas es una aplicación web que permite convertir entre distinta
 
 # Documentación
 ├── README.md               
+
 
 
 
